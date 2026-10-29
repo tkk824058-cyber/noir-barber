@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11110f">
+  <title>NOIR — Barber Studio</title>
+  <meta name="description" content="Prémiové barber studio. Precizní střihy a osobní přístup.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#">NOIR<span>.</span></a>
+    <a class="book" href="#contact">REZERVACE ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-content">
+        <p class="eyebrow">BARBERING · EST. 2024</p>
+        <h1>Řemeslo.<br><span>Charakter.</span></h1>
+        <p class="description">
+          Precizní střihy. Čisté linie. Osobní přístup.
+          Pro ty, kteří vědí, že na detailech záleží.
+        </p>
+        <a class="button" href="#services">PROHLÉDNOUT SLUŽBY ↘</a>
+      </div>
+      <p class="vertical-note">DETAIL, KTERÝ ROZHODUJE</p>
+    </section>
+
+    <section class="intro" id="services">
+      <p class="eyebrow">NAŠE ŘEMESLO</p>
+      <h2>Váš styl.<br><span>Naše pravidla.</span></h2>
+      <p class="muted">
+        Dobrý střih není náhoda. Je to cit pro detail,
+        zkušenosti a čas věnovaný právě vám.
+      </p>
+
+      <div class="service">
+        <span>01 / CLASSIC HAIRCUT</span><strong>650 Kč</strong>
+      </div>
+      <div class="service">
+        <span>02 / SKIN FADE</span><strong>750 Kč</strong>
+      </div>
+      <div class="service">
+        <span>03 / BEARD SHAPING</span><strong>400 Kč</strong>
+      </div>
+      <div class="service">
+        <span>04 / SIGNATURE COMBO</span><strong>990 Kč</strong>
+      </div>
+      <p class="fine-print">Fiktivní studio a ukázkové ceny.</p>
+    </section>
+
+    <section class="statement">
+      <p class="eyebrow">BEZ ZBYTEČNÝCH KOMPROMISŮ</p>
+      <h2>Žádné zkratky.<br><span>Jen poctivé řemeslo.</span></h2>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow">DALŠÍ KROK JE NA VÁS</p>
+      <h2>Váš další střih<br><span>začíná tady.</span></h2>
+      <p class="muted">Máte otázku nebo si chcete domluvit termín?</p>
+      <a class="button" href="mailto:hello@example.com">NAPSAT NÁM ↗</a>
+      <p class="fine-print">Demo projekt — kontaktní údaje je nutné nahradit.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#">NOIR<span>.</span></a>
+    <span>© <span id="year"></span> NOIR STUDIO</span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
